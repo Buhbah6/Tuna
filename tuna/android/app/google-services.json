@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1040087440308",
+    "firebase_url": "https://tuna-8c766-default-rtdb.firebaseio.com",
+    "project_id": "tuna-8c766",
+    "storage_bucket": "tuna-8c766.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040087440308:android:5e3b994c2c0a5a69caf0e1",
+        "android_client_info": {
+          "package_name": "com.example.tuna"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040087440308-h8jta664soahia3fos0m9aufu4bsdhhn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABpi7nkCd0Vmar6Vh70wn03QtvP0YOU34"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040087440308-h8jta664soahia3fos0m9aufu4bsdhhn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
