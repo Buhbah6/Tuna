@@ -1,0 +1,28 @@
+{
+  "Users": {
+    "user1": {
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "password_hash": "hashed_password_1",
+      "preferences": ["vegetarian", "gluten-free"],
+      "allergies": ["peanuts", "shellfish"],
+      "profile_image_url": "https://example.com/user1_profile.jpg"
+    },
+    "user2": {
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "password_hash": "hashed_password_2",
+      "preferences": ["vegan"],
+      "allergies": ["dairy"],
+      "profile_image_url": "https://example.com/user2_profile.jpg"
+    },
+    "user3": {
+      "name": "Bob Johnson",
+      "email": "bob.johnson@example.com",
+      "password_hash": "hashed_password_3",
+      "preferences": ["keto"],
+      "allergies": ["none"],
+      "profile_image_url": "https://example.com/user3_profile.jpg"
+    }
+  }
+}

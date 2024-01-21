@@ -1,0 +1,132 @@
+{
+  "Favourites": [
+    {
+      "uid": "user1",
+      "id": 1,
+      "title": "Spaghetti Bolognese",
+      "prep_time": "30 minutes",
+      "ingredients": [
+        "250g ground beef",
+        "1 onion, chopped",
+        "2 cloves garlic, minced",
+        "1 can (400g) crushed tomatoes",
+        "2 tablespoons tomato paste",
+        "1 teaspoon dried oregano",
+        "Salt and pepper to taste",
+        "300g spaghetti",
+        "Grated Parmesan cheese for garnish"
+      ],
+      "instructions": [
+        "In a large pan, brown the ground beef over medium heat.",
+        "Add chopped onions and minced garlic, cook until onions are translucent.",
+        "Stir in crushed tomatoes, tomato paste, dried oregano, salt, and pepper.",
+        "Simmer for 15-20 minutes, stirring occasionally.",
+        "Meanwhile, cook spaghetti according to package instructions.",
+        "Serve the Bolognese sauce over cooked spaghetti, garnish with Parmesan cheese."
+      ],
+      "picture_url": "https://example.com/spaghetti_bolognese.jpg"
+    },
+    {
+      "uid": "user2",
+      "id": 2,
+      "title": "Chicken Alfredo Pasta",
+      "prep_time": "25 minutes",
+      "ingredients": [
+        "300g fettuccine pasta",
+        "2 boneless, skinless chicken breasts, sliced",
+        "2 tablespoons butter",
+        "2 cloves garlic, minced",
+        "1 cup heavy cream",
+        "1 cup grated Parmesan cheese",
+        "Salt and pepper to taste",
+        "Chopped parsley for garnish"
+      ],
+      "instructions": [
+        "Cook fettuccine pasta according to package instructions.",
+        "In a large skillet, cook sliced chicken in butter until browned and cooked through.",
+        "Add minced garlic and sauté for 1-2 minutes.",
+        "Pour in heavy cream, stir in Parmesan cheese until melted and creamy.",
+        "Season with salt and pepper. Toss in cooked fettuccine pasta.",
+        "Garnish with chopped parsley before serving."
+      ],
+      "picture_url": "https://example.com/chicken_alfredo_pasta.jpg"
+    },
+    {
+      "uid": "user3",
+      "id": 3,
+      "title": "Vegetarian Pizza",
+      "prep_time": "20 minutes",
+      "ingredients": [
+        "1 pizza crust (store-bought or homemade)",
+        "1/2 cup pizza sauce",
+        "1 cup mozzarella cheese, shredded",
+        "1 bell pepper, sliced",
+        "1 red onion, sliced",
+        "1 cup cherry tomatoes, halved",
+        "1/2 cup black olives, sliced",
+        "1 teaspoon dried oregano",
+        "Olive oil for drizzling"
+      ],
+      "instructions": [
+        "Preheat the oven according to the pizza crust instructions.",
+        "Spread pizza sauce over the crust, leaving a border around the edges.",
+        "Sprinkle mozzarella cheese over the sauce.",
+        "Top with sliced bell pepper, red onion, cherry tomatoes, and black olives.",
+        "Sprinkle dried oregano on top. Drizzle with olive oil.",
+        "Bake in the preheated oven until the crust is golden and the cheese is melted."
+      ],
+      "picture_url": "https://example.com/vegetarian_pizza.jpg"
+    },
+    {
+      "uid": "user2",
+      "id": 4,
+      "title": "Chocolate Chip Cookies",
+      "prep_time": "15 minutes",
+      "ingredients": [
+        "1 cup unsalted butter, softened",
+        "3/4 cup granulated sugar",
+        "3/4 cup brown sugar, packed",
+        "2 large eggs",
+        "1 teaspoon vanilla extract",
+        "2 1/4 cups all-purpose flour",
+        "1 teaspoon baking soda",
+        "1/2 teaspoon salt",
+        "2 cups chocolate chips"
+      ],
+      "instructions": [
+        "Preheat the oven to 350°F (175°C).",
+        "In a large bowl, cream together butter, granulated sugar, and brown sugar until smooth.",
+        "Beat in eggs one at a time, then stir in vanilla extract.",
+        "Combine flour, baking soda, and salt. Gradually add to the wet ingredients.",
+        "Fold in chocolate chips.",
+        "Drop rounded tablespoons of dough onto ungreased baking sheets.",
+        "Bake for 10-12 minutes or until golden brown. Cool on wire racks."
+      ],
+      "picture_url": "https://example.com/chocolate_chip_cookies.jpg"
+    },
+    {
+      "uid": "user1",
+      "id": 5,
+      "title": "Caesar Salad",
+      "prep_time": "15 minutes",
+      "ingredients": [
+        "1 head romaine lettuce, washed and chopped",
+        "1 cup croutons",
+        "1/2 cup grated Parmesan cheese",
+        "1/4 cup Caesar dressing",
+        "1 lemon, juiced",
+        "Salt and pepper to taste",
+        "Grilled chicken (optional)"
+      ],
+      "instructions": [
+        "In a large bowl, combine chopped romaine lettuce, croutons, and Parmesan cheese.",
+        "In a small bowl, whisk together Caesar dressing and lemon juice.",
+        "Pour the dressing over the salad and toss until well coated.",
+        "Season with salt and pepper to taste.",
+        "Top with grilled chicken if desired.",
+        "Serve immediately."
+      ],
+      "picture_url": "https://example.com/caesar_salad.jpg"
+    }
+  ]
+}
