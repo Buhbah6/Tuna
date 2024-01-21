@@ -1,0 +1,16 @@
+{
+    "Shopping list": [
+      {
+        "uid": 1,
+        "ingredients": ["Milk", "Eggs", "Bread"]
+      },
+      {
+        "uid": 2,
+        "ingredients": ["Chicken", "Broccoli", "Rice"]
+      },
+      {
+        "uid": 3,
+        "ingredients": ["Tomatoes", "Onions", "Garlic"]
+      }
+    ]
+  }
