@@ -39,10 +39,8 @@
           "ingredients": ["Tomatoes", "Onions", "Garlic"]
         }
       },
-    "Favourites": {
+    "Recipes": {
         "1": {
-          "id": 1,
-          "uid": "user1",
           "title": "Spaghetti Bolognese",
           "prep_time": "30 minutes",
           "ingredients": [
@@ -67,8 +65,6 @@
           "picture_url": "https://example.com/spaghetti_bolognese.jpg"
         },
         "2": {
-          "id": 2,
-          "uid": "user2",
           "title": "Chicken Alfredo Pasta",
           "prep_time": "25 minutes",
           "ingredients": [
@@ -92,8 +88,6 @@
           "picture_url": "https://example.com/chicken_alfredo_pasta.jpg"
         },
         "3": {
-          "id": 3,
-          "uid": "user3",
           "title": "Vegetarian Pizza",
           "prep_time": "20 minutes",
           "ingredients": [
@@ -118,8 +112,6 @@
           "picture_url": "https://example.com/vegetarian_pizza.jpg"
         },
         "4": {
-          "id": 4,
-          "uid": "user2",
           "title": "Chocolate Chip Cookies",
           "prep_time": "15 minutes",
           "ingredients": [
@@ -145,8 +137,6 @@
           "picture_url": "https://example.com/chocolate_chip_cookies.jpg"
         },
         "5": {
-          "id": 5,
-          "uid": "user1",
           "title": "Caesar Salad",
           "prep_time": "15 minutes",
           "ingredients": [
@@ -167,6 +157,28 @@
             "Serve immediately."
           ],
           "picture_url": "https://example.com/caesar_salad.jpg"
+        }
+    },
+    "Favourites": {
+        "1": {
+          "rid": 1,
+          "uid": "user1"
+        },
+        "2": {
+            "rid": 2,
+            "uid": "user2"
+        },
+        "3": {
+            "rid": 3,
+            "uid": "user3"
+        },
+        "4": {
+            "rid": 4,
+            "uid": "user2"
+        },
+        "5": {
+            "rid": 5,
+            "uid": "user1"
         }
     }
 }
