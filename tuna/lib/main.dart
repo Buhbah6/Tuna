@@ -53,10 +53,239 @@ class HomeScreen extends StatelessWidget {
         title: const Text("Home Screen"),
       ),
       body: Center(
-        child: Text("Welcome to the Home Screen!"),
-      ),
-    );
-  }
+        child: 
+        Stack(
+          
+        alignment: Alignment.center,
+        children: [
+            Positioned(
+                left: 73,
+                top: 263,
+                child: Container(
+                    width: 284,
+                    height: 406,
+                    child: Stack(
+                        children: [
+                            Positioned(
+                                left: 0,
+                                top: 0,
+                                child: Container(
+                                    width: 284,
+                                    height: 406,
+                                    decoration: ShapeDecoration(
+                                        color: Color(0xEFE28941),
+                                        shape: RoundedRectangleBorder(
+                                            borderRadius: BorderRadius.circular(15),
+                                        ),
+                                    ),
+                                ),
+                            ),
+                            Positioned(
+                                left: -12,
+                                top: -8,
+                                child: Container(
+                                    width: 311,
+                                    height: 429,
+                                    decoration: BoxDecoration(color: Color(0xFFE99149)),
+                                ),
+                            ),
+                            Positioned(
+                                left: -19,
+                                top: -21,
+                                child: Container(
+                                    width: 113,
+                                    height: 115,
+                                    decoration: ShapeDecoration(
+                                        color: Color(0x99CD6023),
+                                        shape: OvalBorder(),
+                                    ),
+                                ),
+                            ),
+                            Positioned(
+                                left: 196,
+                                top: 347,
+                                child: Container(
+                                    width: 65,
+                                    height: 67,
+                                    decoration: ShapeDecoration(
+                                        color: Colors.white.withOpacity(0.25),
+                                        shape: OvalBorder(),
+                                    ),
+                                ),
+                            ),
+                        ],
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 146,
+                top: 605,
+                child: Container(
+                    width: 138,
+                    height: 36,
+                    decoration: ShapeDecoration(
+                        color: Color(0xFF3E2BA4),
+                        shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(30),
+                        ),
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 177,
+                top: 311,
+                child: Text(
+                    'Login',
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 30,
+                        fontFamily: 'Inter',
+                        fontWeight: FontWeight.w500,
+                        height: 0,
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 196,
+                top: 614,
+                child: Text(
+                    'Login',
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 15,
+                        fontFamily: 'Inter',
+                        fontWeight: FontWeight.w500,
+                        height: 0,
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 119,
+                top: 397,
+                child: Container(
+                    width: 194,
+                    height: 31,
+                    child: Stack(
+                        children: [
+                            Positioned(
+                                left: 0,
+                                top: 0,
+                                child: Container(
+                                    width: 194,
+                                    height: 31,
+                                    decoration: ShapeDecoration(
+                                        color: Colors.white,
+                                        shape: RoundedRectangleBorder(
+                                            borderRadius: BorderRadius.circular(30),
+                                        ),
+                                    ),
+                                ),
+                            ),
+                            Positioned(
+                                left: 15,
+                                top: 6,
+                                child: Text(
+                                    'Username',
+                                    style: TextStyle(
+                                        color: Color(0xFF5C5C5C),
+                                        fontSize: 15,
+                                        fontFamily: 'Inter',
+                                        fontWeight: FontWeight.w500,
+                                        height: 0,
+                                    ),
+                                ),
+                            ),
+                        ],
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 118,
+                top: 451,
+                child: Container(
+                    width: 194,
+                    height: 31,
+                    child: Stack(
+                        children: [
+                            Positioned(
+                                left: 0,
+                                top: 0,
+                                child: Container(
+                                    width: 194,
+                                    height: 31,
+                                    decoration: ShapeDecoration(
+                                        color: Colors.white,
+                                        shape: RoundedRectangleBorder(
+                                            borderRadius: BorderRadius.circular(30),
+                                        ),
+                                    ),
+                                ),
+                            ),
+                            Positioned(
+                                left: 16,
+                                top: 6,
+                                child: Text(
+                                    'Password',
+                                    style: TextStyle(
+                                        color: Color(0xFF5C5C5C),
+                                        fontSize: 15,
+                                        fontFamily: 'Inter',
+                                        fontWeight: FontWeight.w500,
+                                        height: 0,
+                                    ),
+                                ),
+                            ),
+                        ],
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 139,
+                top: 511,
+                child: Container(
+                    width: 155,
+                    height: 34,
+                    decoration: ShapeDecoration(
+                        color: Colors.white,
+                        shape: RoundedRectangleBorder(
+                            side: BorderSide(width: 0.50, color: Color(0xFFA3A3A3)),
+                        ),
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 139,
+                top: 545,
+                child: Container(
+                    width: 155,
+                    height: 34,
+                    decoration: ShapeDecoration(
+                        color: Colors.white,
+                        shape: RoundedRectangleBorder(
+                            side: BorderSide(width: 0.50, color: Color(0xFFA8A8A8)),
+                        ),
+                    ),
+                ),
+            ),
+            Positioned(
+                left: 125,
+                top: 695,
+                child: Text(
+                    'No account yet? Register',
+                    style: TextStyle(
+                        color: Color(0xFF5C5C5C),
+                        fontSize: 15,
+                        fontFamily: 'Inter',
+                        fontWeight: FontWeight.w500,
+                        height: 0,
+                    ),
+                ),
+            ),
+        ],
+    ),
+)
+      );  
+    }
 }
 
 
